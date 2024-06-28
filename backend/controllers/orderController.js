@@ -1,4 +1,4 @@
-exports.createOrder = (res, req, next) => {
+exports.createOrder = (req, res, next) => {
   res.json({
     success: true,
     message: "order works",
